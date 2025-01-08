@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <head>
+        <title>My Home Page</title>
+        <script src="/chapter-14-DOM/home.js"></script>
+    </head>
+    <body>
+        <h1>My Home Page</h1>
+        <p id="sarath">Hello, I'm' Sarath and this is my Home page</p>
+        <p>I also wrote a book read it 
+            <a href="https://www.linkedin.com/in/sarathkp">here</a>
+        </p>
+        <ul>
+            <li class="todo">Have to complete the JS by 31st January</li>
+            <li class="todo">Then next Month is mostly dedicated for the react project practice</li>
+        </ul>
+        <button onclick="contentChange()">Update Tasks</button>
+        <p>Create New Tasks to Complete</p>
+        <label style="font-weight: 200;">New task </label>
+        <input type="text" value="Today's Task" id="task-input">
+        <button onclick="addTask()">Add Task</button>
+        <ol id="task-show">
+
+        </ol>
+    </body>
+</html>
